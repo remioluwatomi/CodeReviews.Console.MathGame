@@ -5,13 +5,29 @@ namespace MathCore
 
         public static void WelcomePlayer()
         {
-            Console.WriteLine("Welcome");
+            string welcomeMessage = @"
+        ************************************
+        *                                  *
+        *       WELCOME TO MATH GAME!       *
+        *                                  *
+        ************************************
+        
+        Hello, Math Enthusiast!
+        
+        In this game, you'll be challenged with various math problems.
+        Try your best to solve them quickly and correctly!
+        
+        Are you ready to test your math skills? Let's begin!
+        
+        ------------------------------------
+        ";
+            Console.WriteLine(welcomeMessage);
         }
 
         public static bool ContinueGame()
         {
             //infinite loop - this is just to bootstrap the project skeleton
-           return true;
+            return true;
 
         }
 
