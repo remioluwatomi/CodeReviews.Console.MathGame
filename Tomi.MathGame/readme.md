@@ -1,5 +1,5 @@
 
-# Console Math Game
+## Console Math Game
 
 ## 📝 Description
 
