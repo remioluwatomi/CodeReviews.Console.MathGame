@@ -59,7 +59,7 @@ dotnet run
 
 ## 🏗️ Project Structure
 
-```
+```plaintext
 Tomi.MathGame
 ├── Program.cs          # Main game loop and initialization
 ├── MathCore
